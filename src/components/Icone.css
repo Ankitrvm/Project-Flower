@@ -1,0 +1,35 @@
+.icons-box {
+  background-color: #eee;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.icons-box .icons {
+  background-color: #fff;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icons-box .icons img {
+  height: 50px;
+  margin-right: 1rem;
+}
+.icons-box .icons h3 {
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.icons-box .icons span {
+  color: #555;
+  font-size: 1rem;
+
+}
+
+.icons-box .icons .info{
+    padding-right: 10px;
+}

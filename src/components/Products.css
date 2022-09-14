@@ -1,0 +1,101 @@
+.products .products-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 30px;
+}
+
+.products .products-box .box {
+  flex: 1 1 20rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.products .products-box .box .discount {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  padding: 0.5rem 0.5rem;
+  font-size: 1.7rem;
+  color:#e84393;
+  background-color: rgba(45, 6, 26, 0.05);
+  z-index: 1;
+  border-radius: 0.5rem;
+}
+.products .products-box .box .picture {
+  position: relative;
+  text-align: center;
+  padding-top: 2rem;
+  overflow: hidden;
+}
+
+.products .products-box .box .picture img {
+  height: 14rem;
+}
+
+.products .products-box .box:hover .picture img {
+  transform: scale(1.1);
+}
+
+.products .products-box .box .picture .icons {
+  position: absolute;
+  bottom: -5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+
+.products .products-box .box:hover .picture .icons  {
+  bottom: 8rem;
+}
+
+.products .products-box .box .picture .icons a {
+  height: 3rem;
+  line-height: 3rem;
+  font-size: 1rem;
+  width: 50%;
+  background-color:#e84393;
+  color: #fff;
+}
+
+.products .products-box .box .picture .icons .cart-btn {
+  border-left: 0.1rem solid #fff7;
+  border-right: 0.1rem solid #fff7;
+  width: 100%;
+}
+
+.products .products-box .box .picture .icons a:hover {
+  background: #333;
+}
+
+.products .products-box .box .content {
+  padding: 2rem;
+  text-align: center;
+}
+.products .products-box .box .content h3 {
+  font-size: 2rem;
+  color: #333;
+}
+.products .products-box .box .content .price {
+  font-size: 2rem;
+  color: #e84393;
+  font-weight: bolder;
+}
+
+.products .products-box .box .content .price span{
+    font-size: 1.5rem;
+    color: #999;
+    font-weight: lighter;
+    text-decoration: line-through;
+}
+
+.products .products-box .box .heart span{
+  font-size: 1.5rem;
+  color:white;
+}
+.products .products-box .box .picture img.share {
+  height: 1.5rem;
+  align-content: center;
+}
